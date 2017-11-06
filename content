@@ -1,19 +1,11 @@
-Building a Membership Site on WordPress
-It's totally doable&hellip;
-&hellip;but there are some things to watch for:
-<h4>Concerns:</h4>
-1)&nbsp;Separation of members and staff
-2)&nbsp;Protection of pages and posts
-<i>Custom post types are often unhandled</i>
-3)&nbsp;Drip content
-4)&nbsp;Caching
-Best for logged-out users
-Can get in the way of permissions and logins
-5)&nbsp;Integration with sales systems
-Handle recurring payments that provide monthly access
-<h4>Plugin options:</h4>
-1)&nbsp;Directly tied to an external system
-2)&nbsp;Standalone that handles all functions
-3)&nbsp;Extensions for ecommerce plugins
-<hr>Go forth and build.<hr>
+3 Reasons to <strong>NOT</strong> Document Your Code
+1. Clients don't pay for comments<br><em>they pay for code that RUNS</em>.
+Comments aren't (just) for clients, they're for you.
+2. It's just a temporary fix.
+Is it in the repo? It's not temporary.
+3. I'm the only one who's going to be working on this.
+I can't remember why I wrote something 6 <del>months</del><ins>weeks</ins> ago.
+<ul><li><a href="https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/">https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/</a></li><li><a href="https://css-tricks.com/the-art-of-comments/">https://css-tricks.com/the-art-of-comments/</a></li></ul>
+Bonus: I know exactly how every function arg works.
+I can't ever remember the exact args for many functions. Let your IDE read comments and provide hints.
 Morgan Estes<br/>@morganestes<br/>morganestes.com
